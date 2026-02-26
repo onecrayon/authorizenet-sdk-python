@@ -52,13 +52,13 @@ setup(
 
         # Specify the Python versions you support here. In particular, ensure
         # that you indicate whether you support Python 2, Python 3 or both.
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
         'Programming Language :: Python :: 3.11',
-        'Programming Language :: Python :: 3.12'
+        'Programming Language :: Python :: 3.12',
+        'Programming Language :: Python :: 3.13',
+        'Programming Language :: Python :: 3.14'
     ],
 
     # What does your project relate to?
@@ -72,7 +72,7 @@ setup(
     # your project is installed. For an analysis of "install_requires" vs pip's
     # requirements files see:
     # https://packaging.python.org/en/latest/requirements.html
-    install_requires=['PyXB-X', 'lxml==4.*', 'requests==2.*'],
+    install_requires=['PyXB-X', 'lxml==6.*', 'requests==2.*'],
     #install_requires=['nose'],
     #install_requires=['nosetests'],
     #install_requires=['mock'],
